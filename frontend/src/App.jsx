@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 
-const API_URL = 'https://placemate-ai-tk62.onrender.com'/api;
+const API_URL = 'https://placemate-ai-tk62.onrender.com';
 
 function App() {
   const [user, setUser] = useState(JSON.parse(localStorage.getItem('user')) || null);
